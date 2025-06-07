@@ -10,3 +10,6 @@ export const quarterOf = (month: number): number => {
     }
     return 4
 };
+
+//better
+// export const quarterOf = (month: number): number => Math.ceil(month / 3);
